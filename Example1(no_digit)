@@ -1,0 +1,34 @@
+//WAJP to count number of digit in a given number.(constraint maximum 4 digit and positive number)
+
+class Countnum
+{
+    public static void main(String[] args)
+    {
+        int num=4445;
+       
+        if(num<=9)
+        {
+            System.out.println("one digit");
+        }
+        else if(num<=99)
+        {
+            System.out.println("Two digit");
+        }
+        else if(num<=999)
+        {
+            System.out.println("Three digit");
+        }
+        else if(num<=9999)
+        {
+            System.out.println("Four digit");
+        }
+        else if(num<=99999)
+        {
+            System.out.println("Five digit");
+        }
+        else
+        {
+            System.out.println("Invalid number");
+        }
+    }
+}
